@@ -1,0 +1,20 @@
+[package]
+name = "named"
+version = "0.1.0"
+authors = ["max-sixty"]
+license = "MIT/Apache-2.0"
+edition = "2018"
+
+repository = "https://github.com/rust-ndarray/ndarray"
+# documentation = "https://docs.rs/ndarray-rand/"
+
+description = "Named Arrays / Tensors"
+
+keywords = ["multidimensional", "matrix", "rand", "ndarray"]
+
+[dependencies]
+ndarray = { version = "0.12.0", path = ".." }
+
+[package.metadata.release]
+# no-dev-version = true
+
