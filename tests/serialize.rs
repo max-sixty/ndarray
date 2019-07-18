@@ -1,3 +1,5 @@
+#![cfg(feature = "ron")]
+
 extern crate ndarray;
 
 extern crate serde;

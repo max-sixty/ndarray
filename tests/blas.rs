@@ -1,3 +1,5 @@
+#![cfg(feature = "approx")]
+
 extern crate approx;
 extern crate defmac;
 extern crate ndarray;

@@ -15,6 +15,13 @@ keywords = ["multidimensional", "matrix", "rand", "ndarray"]
 rand = "0.6.0"
 ndarray = { version = "0.12.0", path = ".." }
 
+[dev-dependencies]
+approx = "0.3.2"
+
+
+[features]
+test_blas = ["ndarray/blas", "ndarray/test-blas-openblas-sys"]
+
 [package.metadata.release]
 no-dev-version = true
 
